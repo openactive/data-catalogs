@@ -6,7 +6,7 @@
    "dataset":[
       "https://opendata.leisurecloud.live/api/datacatalog",
       "https://openactivedatacatalog.legendonlineservices.co.uk/api/DataCatalog",
-      "https://openactive.io/data-catalogs/miscellaneous.jsonld"
+      "https://openactive.io/data-catalogs/singular.jsonld"
    ],
    "datePublished":"2020-02-20T08:51:54.2365387+00:00",
    "publisher":{
