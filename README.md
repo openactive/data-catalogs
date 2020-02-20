@@ -1,5 +1,5 @@
 ## OpenActive Data Catalog Collection
-Collection of all data catalogs recognised as compliant by OpenActive
+A collection of all data catalogs recognised as compliant by OpenActive.
 
 [https://openactive.io/data-catalogs/data-catalog-collection.jsonld](https://openactive.io/data-catalogs/data-catalog-collection.jsonld)
 
