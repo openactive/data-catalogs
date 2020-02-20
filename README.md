@@ -7,6 +7,6 @@ Collection of all data catalogs recognised as compliant by OpenActive
 https://openactive.io/data-catalogs/data-catalog-collection.jsonld
 
 ## OpenActive Data Catalog for Singular Datasets
-A data catalog for independent datasets that are not included in other data catalogs
+A data catalog for singular datasets that are not included in other data catalogs
 
 https://openactive.io/data-catalogs/singular.jsonld
