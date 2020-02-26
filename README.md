@@ -26,12 +26,12 @@ The following two data files are hosted from within [this repository](https://gi
 ### OpenActive Data Catalog Collection
 A collection of all Data Catalogs recognised as compliant by OpenActive.
 
-[https://openactive.io/data-catalogs/data-catalog-collection.jsonld](https://openactive.io/data-catalogs/data-catalog-collection.jsonld)
+[`https://openactive.io/data-catalogs/data-catalog-collection.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection.jsonld)
 
 ### OpenActive Data Catalog for Singular Datasets
 A Data Catalog for singular datasets that are not included in other Data Catalogs. This data catalog is included in the OpenActive Data Catalog Collection.
 
-[https://openactive.io/data-catalogs/singular.jsonld](https://openactive.io/data-catalogs/singular.jsonld)
+[`https://openactive.io/data-catalogs/singular.jsonld`](https://openactive.io/data-catalogs/singular.jsonld)
 
 
 ## Related specifications
