@@ -10,13 +10,15 @@ The [OpenActive Data Catalog Collection](https://openactive.io/data-catalogs/dat
 
 ## Processing guidance
 
-1. Download each Data Catalog referenced by the `hasPart` array in the [OpenActive Data Catalog Collection](https://openactive.io/data-catalogs/data-catalog-collection.jsonld).
+1. Download the OpenActive Data Catalog Collection using a GET request to the canonical URL [`https://openactive.io/data-catalogs/data-catalog-collection.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection.jsonld).
 
-2. Download each Dataset Site referenced by the `dataset` array in each Data Catalog ([Data Catalog example data](https://opendata.leisurecloud.live/api/datacatalog)).
+2. Download each Data Catalog referenced by the `hasPart` array in the OpenActive Data Catalog Collection.
 
-3. Extract the JSON-LD metadata from inside the HTML page of the Dataset Site ([example extraction library](https://www.npmjs.com/package/htmlmetaparser), [Dataset Site example](https://opendata.fusion-lifestyle.com/OpenActive/)).
+3. Download each Dataset Site referenced by the `dataset` array in each Data Catalog ([Data Catalog example data](https://opendata.leisurecloud.live/api/datacatalog)).
 
-4. The feed URLs are located in the `distribution` property of the JSON-LD metadata within the Dataset Site.
+4. Extract the JSON-LD metadata from inside the HTML page of the Dataset Site ([example extraction library](https://www.npmjs.com/package/htmlmetaparser), [Dataset Site example](https://opendata.fusion-lifestyle.com/OpenActive/)).
+
+5. The feed URLs are located in the `distribution` property of the JSON-LD metadata within the Dataset Site.
 
 
 ## Hosted data files
