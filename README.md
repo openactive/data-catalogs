@@ -10,7 +10,7 @@ The [OpenActive Data Catalog Collection](https://openactive.io/data-catalogs/dat
 
 ## Processing guidance
 
-1. Download each Data Catalog referenced by the `hasPart` array in the OpenActive Data Catalog Collection ([OpenActive Data Catalog Collection](https://openactive.io/data-catalogs/data-catalog-collection.jsonld)).
+1. Download each Data Catalog referenced by the `hasPart` array in the [OpenActive Data Catalog Collection](https://openactive.io/data-catalogs/data-catalog-collection.jsonld).
 
 2. Download each Dataset Site referenced by the `dataset` array in each Data Catalog ([Data Catalog example data](https://opendata.leisurecloud.live/api/datacatalog)).
 
