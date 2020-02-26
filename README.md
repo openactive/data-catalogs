@@ -2,6 +2,11 @@
 
 OpenActive Data Catalogs provide a mechanism for registering [OpenActive Datasite Sites](https://developer.openactive.io/publishing-data/dataset-sites) so that they can be discovered and harvested by data users.
 
+## Structure
+
+The Data Catalog Collection contains a list of Data Catalogs, which contain a list of Dataset Sites, each of which reference OpenActive feed URLs.
+
+
 ## Data Files
 
 ### OpenActive Data Catalog Collection
