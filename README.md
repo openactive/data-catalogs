@@ -8,15 +8,15 @@ OpenActive Data Catalogs provide a mechanism for registering [OpenActive Datasit
 The Data Catalog Collection contains a list of Data Catalogs, which each contain a list of Dataset Sites. Each Dataset Site references its OpenActive feed URLs within JSON-LD metadata.
 
 
-## Data Files
+## Data files
 
 ### OpenActive Data Catalog Collection
-A collection of all data catalogs recognised as compliant by OpenActive.
+A collection of all Data Catalogs recognised as compliant by OpenActive.
 
 [https://openactive.io/data-catalogs/data-catalog-collection.jsonld](https://openactive.io/data-catalogs/data-catalog-collection.jsonld)
 
 ### OpenActive Data Catalog for Singular Datasets
-A data catalog for singular datasets that are not included in other data catalogs. This data catalog is included in the OpenActive Data Catalog Collection.
+A Data Catalog for singular datasets that are not included in other Data Catalogs. This data catalog is included in the OpenActive Data Catalog Collection.
 
 [https://openactive.io/data-catalogs/singular.jsonld](https://openactive.io/data-catalogs/singular.jsonld)
 
