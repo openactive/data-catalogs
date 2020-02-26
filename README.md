@@ -23,7 +23,7 @@ The JSON-LD [OpenActive Data Catalog Collection](https://openactive.io/data-cata
 
 ## Hosted data files
 
-The following two data files are hosted from within [this repository](https://github.com/openactive/data-catalogs/). They should be accessed via the canonical URLs below:
+To support the OpenActive Data Catalogs infrastructure, the following two data files are hosted from within [this central repository](https://github.com/openactive/data-catalogs/). They should be accessed via the canonical URLs below:
 
 ### OpenActive Data Catalog Collection
 A JSON-LD collection of all Data Catalogs recognised as compliant by OpenActive.
