@@ -3,7 +3,7 @@
    "@type":"DataCatalogCollection",
    "id":"https://openactive.io/data-catalogs/data-catalog-collection.jsonld",
    "name":"Collection of all data catalogs recognised as compliant by OpenActive",
-   "dataset":[
+   "hasPart":[
       "https://opendata.leisurecloud.live/api/datacatalog",
       "https://openactivedatacatalog.legendonlineservices.co.uk/api/DataCatalog",
       "https://openactive.io/data-catalogs/singular.jsonld"
