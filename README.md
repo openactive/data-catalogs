@@ -2,6 +2,7 @@
 
 OpenActive Data Catalogs provide a mechanism for registering [OpenActive Datasite Sites](https://developer.openactive.io/publishing-data/dataset-sites) so that they can be discovered and harvested by data users.
 
+
 ## Structure
 
 The Data Catalog Collection contains a list of Data Catalogs, which each contain a list of Dataset Sites. Each Dataset Site references its OpenActive feed URLs within JSON-LD metadata.
@@ -31,4 +32,6 @@ A data catalog for singular datasets that are not included in other data catalog
 4. The feed URLs are located in the `distribution` property of the JSON-LD metadata within the Dataset Site.
 
 
-Note that the JSON-LD metadata format, Data Catalog format, and Data Catalog Collection format are planned to be standardised as part of the [Dataset API Discovery specification](https://www.openactive.io/dataset-api-discovery/EditorsDraft/).
+## Related specifications
+
+The JSON-LD metadata format, Data Catalog format, and Data Catalog Collection format are planned to be standardised as part of the [Dataset API Discovery specification](https://www.openactive.io/dataset-api-discovery/EditorsDraft/).
