@@ -22,9 +22,13 @@ A data catalog for singular datasets that are not included in other data catalog
 
 ## Processing guidance
 
-1) Download each Data Catalog referenced by the `hasPart` array in the Data Catalog Collection ([Data Catalog Collection data](https://www.openactive.io/data-catalogs/data-catalog-collection.jsonld)).
-2) Download each Dataset Site referenced by the `dataset` array in each Data Catalog ([Data Catalog example data](https://opendata.leisurecloud.live/api/datacatalog)).
-3) Extract the JSON-LD metadata from inside the HTML page of the Dataset Site ([example extraction library](https://www.npmjs.com/package/htmlmetaparser), [Dataset Site example](https://opendata.fusion-lifestyle.com/OpenActive/))
-4) The feed URLs are located in the `distribution` property of the JSON-LD metadata within the Dataset Site.
+1. Download each Data Catalog referenced by the `hasPart` array in the Data Catalog Collection ([Data Catalog Collection data](https://www.openactive.io/data-catalogs/data-catalog-collection.jsonld)).
+
+2. Download each Dataset Site referenced by the `dataset` array in each Data Catalog ([Data Catalog example data](https://opendata.leisurecloud.live/api/datacatalog)).
+
+3. Extract the JSON-LD metadata from inside the HTML page of the Dataset Site ([example extraction library](https://www.npmjs.com/package/htmlmetaparser), [Dataset Site example](https://opendata.fusion-lifestyle.com/OpenActive/))
+
+4. The feed URLs are located in the `distribution` property of the JSON-LD metadata within the Dataset Site.
+
 
 Note that the JSON-LD metadata format, Data Catalog format, and Data Catalog Collection format are planned to be standardised as part of the [Dataset API Discovery specification](https://www.openactive.io/dataset-api-discovery/EditorsDraft/).
