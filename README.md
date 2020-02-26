@@ -8,7 +8,9 @@ OpenActive Data Catalogs provide a mechanism for registering [OpenActive Datasit
 The Data Catalog Collection contains a list of Data Catalogs, which each contain a list of Dataset Sites. Each Dataset Site references its OpenActive feed URLs within JSON-LD metadata.
 
 
-## Data files
+## Hosted data files
+
+The following two data files are hosted from within [this repository](https://github.com/openactive/data-catalogs/). They should be accessed via the canonical URLs below:
 
 ### OpenActive Data Catalog Collection
 A collection of all Data Catalogs recognised as compliant by OpenActive.
