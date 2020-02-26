@@ -4,7 +4,7 @@ OpenActive Data Catalogs provide a mechanism for registering [OpenActive Datasit
 
 ## Structure
 
-The Data Catalog Collection contains a list of Data Catalogs, which contain a list of Dataset Sites, each of which reference OpenActive feed URLs.
+The Data Catalog Collection contains a list of Data Catalogs, which each contain a list of Dataset Sites, each of which reference OpenActive feed URLs.
 
 
 ## Data Files
