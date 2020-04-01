@@ -24,7 +24,7 @@
     "http://data.opensessions.io/",
     "http://data.ourparks.org.uk/",
     "http://data.pingengland.co.uk/",
-    "http://data.playwaze.com/",
+    "https://playwaze.com/WebServices/PlayWazeService.svc/OpenData/Dataset",
     "https://data.runtogether.co.uk/",
     "https://sportstarta.github.io/",
     "http://data.tabletennis365.com/",
