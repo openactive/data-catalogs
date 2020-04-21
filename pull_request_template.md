@@ -10,7 +10,7 @@ I confirm the following:
 
 ## Maintenance Checklist
 
-Our organisations is committed to:
+Our organisation is committed to:
 
-- [ ] Resolving issues that are raised on the GitHub Issues Board
+- [ ] Resolving issues that are raised on the GitHub Issues Board(s)
 - [ ] Ensuring activity providers are aware of the OpenActive opportunity on an ongoing basis
