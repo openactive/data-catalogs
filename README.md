@@ -35,6 +35,15 @@ A JSON-LD Data Catalog for singular datasets that are not included in other Data
 
 [`https://openactive.io/data-catalogs/singular.jsonld`](https://openactive.io/data-catalogs/singular.jsonld)
 
+## Contribution
+
+### For booking systems or bespoke websites with a single database
+If you have created a new Dataset Site, simply create a [Pull Request for the OpenActive Data Catalog for Singular Datasets](https://github.com/openactive/data-catalogs/blob/master/singular.jsonld) and add your Dataset Site's production URL to the `dataset` array.
+
+
+### For large booking systems with multiple databases
+If you have created a new Data Catalog, simply create a [Pull Request for the OpenActive Data Catalog Collection](https://github.com/openactive/data-catalogs/blob/master/data-catalog-collection.jsonld) and add your Data Catalog's production URL to the `hasPart` array.
+
 
 ## Related specifications
 
