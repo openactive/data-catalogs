@@ -1,7 +1,7 @@
 {
    "@context":"https://openactive.io",
    "@type":"DataCatalogCollection",
-   "id":"https://openactive.io/data-catalogs/data-catalog-collection.jsonld",
+   "@id":"https://openactive.io/data-catalogs/data-catalog-collection.jsonld",
    "name":"Collection of all data catalogs recognised as compliant by OpenActive",
    "hasPart":[
       "https://opendata.leisurecloud.live/api/datacatalog",
@@ -10,7 +10,7 @@
    ],
    "datePublished":"2020-02-20T08:51:54.2365387+00:00",
    "publisher":{
-      "type":"Organization",
+      "@type":"Organization",
       "name":"OpenActive",
       "url":"https://www.openactive.io/"
    },
