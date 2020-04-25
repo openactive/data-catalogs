@@ -1,6 +1,6 @@
 {
-   "@context": "https://openactive.io/",
-   "@type": "DataCatalogCollection",
+   "@context": "https://schema.org/",
+   "@type": "DataCatalog",
    "@id": "https://openactive.io/data-catalogs/data-catalog-collection.jsonld",
    "name": "Collection of all data catalogs recognised as compliant by OpenActive",
    "hasPart": [
