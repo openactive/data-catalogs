@@ -11,7 +11,6 @@
     "url": "https://www.openactive.io/"
   },
   "dataset": [
-    "http://data.makesweat.com/",
     "http://data.better.org.uk/",
     "http://data.bookwhen.com/",
     "http://data.letsride.co.uk/",
