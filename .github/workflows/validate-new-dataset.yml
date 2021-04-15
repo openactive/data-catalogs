@@ -33,7 +33,7 @@ jobs:
       if: ${{ steps.dataset.outputs.url }}
       with:
         repository: openactive/openactive-test-suite
-        branch: feature/validate-only-mode
+        ref: feature/validate-only-mode
         path: tests
 
     - name: Install OpenActive Test Suite
