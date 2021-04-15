@@ -42,7 +42,7 @@ jobs:
       working-directory: tests
 
     - name: Validate new dataset
-      run: npm run validation-test ${{ steps.dataset.outputs.url }}
+      run: npm run validate-feeds ${{ steps.dataset.outputs.url }}
       if: ${{ steps.dataset.outputs.url }}
       env:
         FORCE_COLOR: 1
