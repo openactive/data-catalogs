@@ -1,0 +1,59 @@
+name: Validate New Dataset
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout PR branch
+      uses: actions/checkout@v2
+      with:
+        path: new
+
+    - name: Checkout master branch
+      uses: actions/checkout@v2
+      with:
+        ref: master
+        path: old
+     
+    - name: Get new Dataset Site URL from PR
+      uses: openactive/data-catalog-compare-action@main
+      id: dataset
+      with:
+        new_json_file: './new/singular.jsonld'
+        old_json_file: './old/singular.jsonld'
+        
+    - name: Checkout OpenActive Test Suite
+      uses: actions/checkout@v2
+      if: ${{ steps.dataset.outputs.url }}
+      with:
+        repository: openactive/openactive-test-suite
+        ref: feature/validate-only-mode
+        path: tests
+
+    - name: Install OpenActive Test Suite
+      run: npm install
+      if: ${{ steps.dataset.outputs.url }}
+      working-directory: tests
+
+    - name: Validate new dataset
+      run: npm run validate-feeds ${{ steps.dataset.outputs.url }}
+      if: ${{ steps.dataset.outputs.url }}
+      env:
+        FORCE_COLOR: 1
+        NODE_CONFIG: |
+          {"broker": {"outputPath": "../../results/"}}
+      working-directory: tests
+      
+    - name: Upload validation results as artifact upon failure
+      uses: actions/upload-artifact@v2
+      if: ${{ failure() && steps.dataset.outputs.url }}
+      with:
+        name: validation-results
+        path: ./tests/results/
+        
