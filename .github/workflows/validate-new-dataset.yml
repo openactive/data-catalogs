@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout PR Branch
+    - name: Checkout PR branch
       uses: actions/checkout@v2
       with:
         path: new
 
-    - name: Checkout Master Branch
+    - name: Checkout master branch
       uses: actions/checkout@v2
       with:
         ref: master
@@ -41,7 +41,7 @@ jobs:
       if: ${{ steps.dataset.outputs.url }}
       working-directory: tests
 
-    - name: Validate ${{ steps.dataset.outputs.url }}
+    - name: Validate new dataset
       run: npm run validation-test ${{ steps.dataset.outputs.url }}
       if: ${{ steps.dataset.outputs.url }}
       env:
