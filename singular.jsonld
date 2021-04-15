@@ -32,6 +32,7 @@
     "https://opendata.exercise-anywhere.com/",
     "https://www.sportsuite.co.uk/odapikey/datasite/",
     "https://www.participant.co.uk/participant/openactive/",
-    "https://goteamup.com/api/openactive/v1/"
+    "https://goteamup.com/api/openactive/v1/",
+    "https://reference-implementation.openactive.io/OpenActive"
   ]
 }
