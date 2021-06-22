@@ -18,7 +18,7 @@
     "http://data.britishtriathlon.org/",
     "https://data.englandnetball.co.uk/",
     "http://data.gomammoth.co.uk/",
-    "http://data.goodgym.org/",
+    "https://data.goodgym.org/",
     "https://lawntennisassociation.github.io/",
     "https://opensessions.io/openactive",
     "https://ourparks.org.uk/openactive",
@@ -34,5 +34,6 @@
     "https://www.participant.co.uk/participant/openactive/",
     "https://goteamup.com/api/openactive/v1/",
     "https://groopltd.github.io/"
+    "https://openactive.played.co/openactive"
   ]
 }
