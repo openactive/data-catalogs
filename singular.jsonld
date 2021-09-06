@@ -33,6 +33,7 @@
     "https://www.sportsuite.co.uk/odapikey/datasite/",
     "https://www.participant.co.uk/participant/openactive/",
     "https://goteamup.com/api/openactive/v1/",
-    "https://openactive.played.co/openactive"
+    "https://openactive.played.co/openactive",
+    "https://www.englandsquash.com/public/v1/sessions"
   ]
 }
