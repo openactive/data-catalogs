@@ -12,7 +12,7 @@
   },
   "dataset": [
     "http://data.better.org.uk/",
-    "http://data.bookwhen.com/",
+    "https://data.bookwhen.com/",
     "http://data.letsride.co.uk/",
     "http://data.britishorienteering.org.uk/",
     "http://data.britishtriathlon.org/",
@@ -28,7 +28,6 @@
     "https://data.runtogether.co.uk/",
     "https://sportstarta.github.io/",
     "http://data.tabletennis365.com/",
-    "http://data.emduk.org/",
     "https://openactive.upshot.org.uk/",
     "https://opendata.exercise-anywhere.com/",
     "https://www.sportsuite.co.uk/odapikey/datasite/",
