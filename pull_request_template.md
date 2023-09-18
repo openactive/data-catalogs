@@ -13,7 +13,7 @@ I confirm the following:
 Our organisation is committed to:
 
 - [ ] Ensuring activity providers are aware of the OpenActive initiative on an ongoing basis
-- [ ] Providing high quality opportunity data that meets user needs, as specified in [OpenActive's Data Quality reporting framework](https://docs.google.com/document/d/1WCFR9Js_NShTJeN1-aCIcSJNsPHTUHJ3mokvnC6Lt54/edit?usp=sharing)
+- [ ] Providing high quality opportunity data that meets user needs, as specified in [OpenActive's Data Quality reporting framework](https://developer.openactive.io/publishing-data/data-quality)
 - [ ] Resolving issues that are raised on the GitHub Issues Board(s)
 
 
