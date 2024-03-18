@@ -10,7 +10,7 @@ The JSON-LD [OpenActive Data Catalog Collection](https://openactive.io/data-cata
 
 ## Processing guidance
 
-1. Download the OpenActive Data Catalog Collection JSON-LD file using a GET request to the canonical URL [`https://openactive.io/data-catalogs/data-catalog-collection.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection.jsonld).
+1. Download the OpenActive Data Catalog Collection JSON-LD file using a GET request to the canonical URL [`https://openactive.io/data-catalogs/data-catalog-collection.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection.jsonld) (or [`https://openactive.io/data-catalogs/data-catalog-collection-preview.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection-preview.jsonld) for datasets in ["preview"](#dataset-previews)).
 
 2. Download each Data Catalog JSON-LD file referenced by the `hasPart` array in the OpenActive Data Catalog Collection ([Data Catalog example data](https://opendata.leisurecloud.live/api/datacatalog)).
 
@@ -35,7 +35,14 @@ A JSON-LD Data Catalog for singular datasets that are not included in other Data
 
 [`https://openactive.io/data-catalogs/singular.jsonld`](https://openactive.io/data-catalogs/singular.jsonld)
 
-## Contribution
+### Dataset Previews
+Datasets with work in progress are available in the Preview Data Catalog Collection which references the corresponding Preview Data Catalog for Singular Datasets. These are not yet recognised as compliant by OpenActive, but may be of interest to data users for exploratory use.
+
+[`https://openactive.io/data-catalogs/data-catalog-collection-preview.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection-preview.jsonld)
+
+[`https://openactive.io/data-catalogs/singular-preview.jsonld`](https://openactive.io/data-catalogs/singular-preview.jsonld)
+
+## Adding a new dataset or data catalog
 
 ### For booking systems or bespoke websites with a single database
 If you have created a new Dataset Site, simply create a [Pull Request for the OpenActive Data Catalog for Singular Datasets](https://github.com/openactive/data-catalogs/edit/master/singular.jsonld) and add your Dataset Site's production URL to the `dataset` array.
@@ -52,6 +59,18 @@ git push
 ### For large booking systems with multiple databases
 If you have created a new Data Catalog, simply create a [Pull Request for the OpenActive Data Catalog Collection](https://github.com/openactive/data-catalogs/edit/master/data-catalog-collection.jsonld) and add your Data Catalog's production URL to the `hasPart` array.
 
+## Reviewing PRs for a new dataset or data catalog
+
+Reviewers must verify that that all criteria in the checklist found in the [pull_request_template.md](./pull_request_template.md) have been met.
+
+This can be achieved by:
+- Checking that CI passes (CI will run the [OpenActive Test Suite](https://developer.openactive.io/publishing-data/data-feeds/testing-feeds#openactive-test-suite)) to validate feeds
+- Checking that the dataset site references a valid GitHub Issues Board
+
+In cases where the data is likely to be valuable to data users while the data publisher is fixing bugs in their feeds, it may be added as a "preview" (either to `data-catalog-collection-preview.jsonld` or `singular-preview.jsonld`). This preview state will be reflected within the OpenActive Status Dashboard.
+
+## Tests
+The repository includes basic tests to check the validity of the JSON-LD `@id` references included within it.
 
 ## Related specifications
 
