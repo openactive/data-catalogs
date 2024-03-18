@@ -36,11 +36,18 @@ A JSON-LD Data Catalog for singular datasets that are not included in other Data
 [`https://openactive.io/data-catalogs/singular.jsonld`](https://openactive.io/data-catalogs/singular.jsonld)
 
 ### Dataset Previews
-Datasets with work in progress are available in the Preview Data Catalog Collection which references the corresponding Preview Data Catalog for Singular Datasets. These are not yet recognised as compliant by OpenActive, but may be of interest to data users for exploratory use.
+Datasets with work in progress are available in the Preview Data Catalog Collection which references the corresponding Data Catalog for Preview Singular Datasets. These are not yet recognised as compliant by OpenActive, but may be of interest to data users for exploratory use.
 
 [`https://openactive.io/data-catalogs/data-catalog-collection-preview.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection-preview.jsonld)
 
 [`https://openactive.io/data-catalogs/singular-preview.jsonld`](https://openactive.io/data-catalogs/singular-preview.jsonld)
+
+### Test Datasets
+Datasets that contain data from test, staging or UAT environments are available in the Test Data Catalog Collection which references the corresponding Data Catalog for Test Singular Datasets. These may be useful during deeper integrations such as with the Open Booking API.
+
+[`https://openactive.io/data-catalogs/data-catalog-collection-test.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection-test.jsonld)
+
+[`https://openactive.io/data-catalogs/singular-test.jsonld`](https://openactive.io/data-catalogs/singular-test.jsonld)
 
 ## Adding a new dataset or data catalog
 
@@ -68,6 +75,8 @@ This can be achieved by:
 - Checking that the dataset site references a valid GitHub Issues Board
 
 In cases where the data is likely to be valuable to data users while the data publisher is fixing bugs in their feeds, it may be added as a "preview" (either to `data-catalog-collection-preview.jsonld` or `singular-preview.jsonld`). This preview state will be reflected within the OpenActive Status Dashboard.
+
+Once a Data Catalogue or Dataset has been accepted into the OpenActive Data Catalogue Collection, any corresponding test Data Catalogue or Dataset may be added to either `data-catalog-collection-test.jsonld` or `singular-test.jsonld`. Such test data will be reflected within the OpenActive Status Dashboard.
 
 ## Tests
 The repository includes basic tests to check the validity of the JSON-LD `@id` references included within it.

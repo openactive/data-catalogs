@@ -7,6 +7,8 @@ const jsonldSourceUrls = [
   'singular.jsonld',
   'data-catalog-collection-preview.jsonld',
   'singular-preview.jsonld',
+  'data-catalog-collection-test.jsonld',
+  'singular-test.jsonld',
 ]
 
 for (const jsonldSourceUrl of jsonldSourceUrls) {
