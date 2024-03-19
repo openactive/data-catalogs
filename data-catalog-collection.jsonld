@@ -6,7 +6,8 @@
    "hasPart": [
       "https://opendata.leisurecloud.live/api/datacatalog",
       "https://openactivedatacatalog.legendonlineservices.co.uk/api/DataCatalog",
-      "https://openactive.io/data-catalogs/singular.jsonld"
+      "https://openactive.io/data-catalogs/singular.jsonld",
+      "https://app.bookteq.com/api/openactive/catalogue"
    ],
    "datePublished": "2020-02-20T08:51:54+00:00",
    "publisher": {
