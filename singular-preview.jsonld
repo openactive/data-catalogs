@@ -12,6 +12,7 @@
     "url": "https://www.openactive.io/"
   },
   "dataset": [
-    "https://better-admin.org.uk/api/openactive/better"
+    "https://better-admin.org.uk/api/openactive/better",
+    "https://www.englandsquash.com/openactive"
   ]
 }

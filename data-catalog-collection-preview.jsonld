@@ -3,7 +3,7 @@
   "@type": "DataCatalog",
   "@id": "https://openactive.io/data-catalogs/data-catalog-collection-preview.jsonld",
   "name": "OpenActive Preview Data",
-  "description": "Data with work in progress. Not yet recognised as compliant by OpenActive, but may be of interest to data users for exploratory use.",
+  "description": "This data has work in progress. It is not yet recognised as compliant by OpenActive, but may be of interest to data users for exploratory use.",
   "hasPart": [
      "https://openactive.io/data-catalogs/singular-preview.jsonld"
   ],
