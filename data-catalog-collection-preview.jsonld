@@ -2,12 +2,12 @@
   "@context": "https://schema.org/",
   "@type": "DataCatalog",
   "@id": "https://openactive.io/data-catalogs/data-catalog-collection-preview.jsonld",
-  "name": "OpenActive Preview Data Catalog Collection",
-  "description": "Collection of data catalogs that contain datasets with work in progress. These are not yet recognised as compliant by OpenActive, but may be of interest to data users for exploratory use.",
+  "name": "OpenActive Preview Data",
+  "description": "Data with work in progress. Not yet recognised as compliant by OpenActive, but may be of interest to data users for exploratory use.",
   "hasPart": [
      "https://openactive.io/data-catalogs/singular-preview.jsonld"
   ],
-  "datePublished": "2020-02-20T08:51:54+00:00",
+  "datePublished": "2024-03-20T20:20:54+00:00",
   "publisher": {
      "@type": "Organization",
      "name": "OpenActive",

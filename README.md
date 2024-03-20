@@ -10,7 +10,7 @@ The JSON-LD [OpenActive Data Catalog Collection](https://openactive.io/data-cata
 
 ## Processing guidance
 
-1. Download the OpenActive Data Catalog Collection JSON-LD file using a GET request to the canonical URL [`https://openactive.io/data-catalogs/data-catalog-collection.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection.jsonld) (or [`https://openactive.io/data-catalogs/data-catalog-collection-preview.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection-preview.jsonld) for datasets in ["preview"](#dataset-previews)).
+1. Download the OpenActive Data Catalog Collection JSON-LD file using a GET request to the canonical URL [`https://openactive.io/data-catalogs/data-catalog-collection.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection.jsonld) (or [`https://openactive.io/data-catalogs/data-catalog-collection-preview.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection-preview.jsonld) for datasets in ["preview"](#dataset-previews), or [`https://openactive.io/data-catalogs/data-catalog-collection-test.jsonld`](https://openactive.io/data-catalogs/data-catalog-collection-test.jsonld) for datasets in ["test"](#test-datasets)).
 
 2. Download each Data Catalog JSON-LD file referenced by the `hasPart` array in the OpenActive Data Catalog Collection ([Data Catalog example data](https://opendata.leisurecloud.live/api/datacatalog)).
 

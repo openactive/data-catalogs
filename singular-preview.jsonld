@@ -4,7 +4,7 @@
   "@id": "https://openactive.io/data-catalogs/singular-preview.jsonld",
   "name": "OpenActive Data Catalog for Preview Singular Datasets",
   "description": "Singular datasets that are not included in other data catalogs, and that are a work in progress. These are not yet recognised as compliant by OpenActive, but may be of interest to data users for exploratory use.",
-  "datePublished": "2020-02-20T08:55:19+00:00",
+  "datePublished": "2024-03-20T20:20:54+00:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "publisher": {
     "@type": "Organization",
