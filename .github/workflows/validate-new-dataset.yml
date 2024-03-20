@@ -26,30 +26,37 @@ jobs:
         ref: master
         path: old
      
-    - name: Get new Dataset Site URL from PR
+    - name: Get new Dataset Site URL from PR (for singular.jsonld)
       uses: openactive/data-catalog-compare-action@main
       id: dataset
       with:
         new_json_file: './new/singular.jsonld'
         old_json_file: './old/singular.jsonld'
 
-    - name: Get new Dataset Site URL from PR
+    - name: Get new Dataset Site URL from PR (for singular-preview.jsonld)
       uses: openactive/data-catalog-compare-action@main
       id: dataset-preview
       with:
         new_json_file: './new/singular-preview.jsonld'
         old_json_file: './old/singular-preview.jsonld'
         
+    - name: Get new Dataset Site URL from PR (for singular-test.jsonld)
+      uses: openactive/data-catalog-compare-action@main
+      id: dataset-test
+      with:
+        new_json_file: './new/singular-test.jsonld'
+        old_json_file: './old/singular-test.jsonld'
+
     - name: Checkout OpenActive Test Suite
       uses: actions/checkout@v2
-      if: ${{ steps.dataset.outputs.url || steps.dataset-preview.outputs.url }}
+      if: ${{ steps.dataset.outputs.url || steps.dataset-preview.outputs.url || steps.dataset-test.outputs.url }}
       with:
         repository: openactive/openactive-test-suite
         path: tests
 
     - name: Install OpenActive Test Suite
       run: npm install
-      if: ${{ steps.dataset.outputs.url || steps.dataset-preview.outputs.url}}
+      if: ${{ steps.dataset.outputs.url || steps.dataset-preview.outputs.url || steps.dataset-test.outputs.url }}
       working-directory: tests
 
     - name: Install
@@ -59,8 +66,8 @@ jobs:
       run: npm test
 
     - name: Validate new dataset
-      run: npm run validate-feeds ${{ steps.dataset.outputs.url || steps.dataset-preview.outputs.url}}
-      if: ${{ steps.dataset.outputs.url || steps.dataset-preview.outputs.url }}
+      run: npm run validate-feeds ${{ steps.dataset.outputs.url || steps.dataset-preview.outputs.url || steps.dataset-test.outputs.url }}
+      if: ${{ steps.dataset.outputs.url || steps.dataset-preview.outputs.url || steps.dataset-test.outputs.url }}
       env:
         FORCE_COLOR: 1
         NODE_CONFIG: |
@@ -69,7 +76,7 @@ jobs:
       
     - name: Upload validation results as artifact upon failure
       uses: actions/upload-artifact@v2
-      if: ${{ failure() && (steps.dataset.outputs.url || steps.dataset-preview.outputs.url) }}
+      if: ${{ failure() && (steps.dataset.outputs.url || steps.dataset-preview.outputs.url || steps.dataset-test.outputs.url) }}
       with:
         name: validation-results
         path: ./tests/results/
