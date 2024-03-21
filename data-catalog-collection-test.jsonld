@@ -3,7 +3,7 @@
   "@type": "DataCatalog",
   "@id": "https://openactive.io/data-catalogs/data-catalog-collection-test.jsonld",
   "name": "OpenActive Test Data",
-  "description": "Data from test, staging or UAT environments, which may be useful during deeper integrations such as with the Open Booking API.",
+  "description": "This data is from test, staging or UAT environments. It may be useful during deeper integrations such as with the Open Booking API.",
   "hasPart": [
      "https://openactive.io/data-catalogs/singular-test.jsonld"
   ],

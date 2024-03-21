@@ -3,7 +3,7 @@
    "@type": "DataCatalog",
    "@id": "https://openactive.io/data-catalogs/data-catalog-collection.jsonld",
    "name": "OpenActive Data",
-   "description": "Data that is recognised as compliant by OpenActive. Note that although these feeds were compliant when they were built, they may not be compliant at the time of access.",
+   "description": "This data is recognised as compliant by OpenActive. Note that although these feeds were compliant when they were built, they may not be compliant at the time of access.",
    "hasPart": [
       "https://opendata.leisurecloud.live/api/datacatalog",
       "https://openactivedatacatalog.legendonlineservices.co.uk/api/DataCatalog",
