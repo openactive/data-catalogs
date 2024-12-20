@@ -16,12 +16,12 @@ jobs:
         node-version: 18
   
     - name: Checkout PR branch
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         path: new
 
     - name: Checkout master branch
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         ref: master
         path: old
@@ -48,7 +48,7 @@ jobs:
         old_json_file: './old/singular-test.jsonld'
 
     - name: Checkout OpenActive Test Suite
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       if: ${{ steps.dataset.outputs.url || steps.dataset-preview.outputs.url || steps.dataset-test.outputs.url }}
       with:
         repository: openactive/openactive-test-suite
@@ -69,7 +69,7 @@ jobs:
       working-directory: tests
       
     - name: Upload validation results as artifact upon failure
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       if: ${{ failure() && (steps.dataset.outputs.url || steps.dataset-preview.outputs.url || steps.dataset-test.outputs.url) }}
       with:
         name: validation-results
