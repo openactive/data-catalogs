@@ -7,6 +7,7 @@ I confirm the following:
 - [ ] My open data feeds all pass the OpenActive Validator's RPDE feed validation (https://validator.openactive.io/rpde)
 - [ ] My open data feeds include activity list references as specified in https://developer.openactive.io/publishing-data/activity-list-references
 - [ ] My dataset site(s) each reference a GitHub Issues Board
+- [ ] I have checked that the times in the feed `startDate` and `endDate` match the times on the website referenced by the `url`, and can confirm that there are no timezone issues
 
 ## Maintenance Checklist
 
