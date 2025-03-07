@@ -13,6 +13,7 @@
   },
   "dataset": [
     "http://data.better.org.uk/",
+    "https://better-admin.org.uk/api/openactive/better",
     "https://data.bookwhen.com/",
     "http://data.letsride.co.uk/",
     "http://data.britishorienteering.org.uk/",
