@@ -12,10 +12,12 @@
     "url": "https://www.openactive.io/"
   },
   "dataset": [
-    "https://better-admin.org.uk/api/openactive/better",
     "https://betterflow.coursepro.co.uk/odi/feed",
     "https://www.englandsquash.com/openactive",
     "http://www.schools-plus.co.uk/OpenActive.php",
-    "https://openactive.goodgym.org/"
+    "https://openactive.goodgym.org/",
+    "https://www.participant.co.uk/participant/openactive/",
+    "https://agb.sport80-clubs.com/openactive",
+    "http://data.pingengland.co.uk/"
   ]
 }

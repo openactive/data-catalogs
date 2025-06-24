@@ -13,6 +13,7 @@
   },
   "dataset": [
     "http://data.better.org.uk/",
+    "https://better-admin.org.uk/api/openactive/better",
     "https://data.bookwhen.com/",
     "http://data.letsride.co.uk/",
     "http://data.britishorienteering.org.uk/",
@@ -23,18 +24,15 @@
     "https://lawntennisassociation.github.io/",
     "https://openactive.opensessions.io/",
     "https://ourparks.org.uk/openactive",
-    "http://data.pingengland.co.uk/",
     "https://playwaze.com/opendata/openactive",
     "https://data.runtogether.co.uk/",
     "https://sportstarta.github.io/",
     "https://openactive.upshot.org.uk/",
     "https://opendata.exercise-anywhere.com/",
     "https://www.sportsuite.co.uk/odapikey/datasite",
-    "https://www.participant.co.uk/participant/openactive/",
     "https://goteamup.com/api/openactive/v1/",
     "https://openactive.played.co/openactive/",
     "https://api.premiertennis.co.uk/openactive",
-    "https://agb.sport80-clubs.com/openactive",
     "https://partners.playfootball.net/OpenActive/"
   ]
 }

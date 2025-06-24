@@ -1,8 +1,8 @@
 name: Tests
 
 on:
-  pull_request:
-    branches: [ master ]
+  # pull_request:
+  #   branches: [ master ]
   push:
     branches: [ master ]
 
@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Use Node.js 18.x
       uses: actions/setup-node@v1
