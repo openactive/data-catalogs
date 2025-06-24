@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "DataCatalog",
+  "@id": "https://openactive.io/data-catalogs/data-catalog-collection-test.jsonld",
+  "name": "OpenActive Test Data",
+  "description": "This data is from test, staging or UAT environments. It may be useful during deeper integrations such as with the Open Booking API.",
+  "hasPart": [
+     "https://openactive.io/data-catalogs/singular-test.jsonld"
+  ],
+  "datePublished": "2024-03-20T20:20:54+00:00",
+  "publisher": {
+     "@type": "Organization",
+     "name": "OpenActive",
+     "url": "https://www.openactive.io/"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}

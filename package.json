@@ -1,0 +1,21 @@
+{
+  "name": "data-catalogs",
+  "version": "1.0.0",
+  "description": "Data Catalogs provide a mechanism for registering OpenActive Datasite Sites so that they can be discovered and harvested by data users",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openactive/data-catalogs.git"
+  },
+  "author": "OpenActive Community",
+  "bugs": {
+    "url": "https://github.com/openactive/data-catalogs/issues"
+  },
+  "homepage": "https://github.com/openactive/data-catalogs#readme",
+  "devDependencies": {
+    "@openactive/dataset-utils": "^1.1.1",
+    "jest": "^29.7.0"
+  }
+}
