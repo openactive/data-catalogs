@@ -33,6 +33,7 @@
     "https://goteamup.com/api/openactive/v1/",
     "https://openactive.played.co/openactive/",
     "https://api.premiertennis.co.uk/openactive",
-    "https://partners.playfootball.net/OpenActive/"
+    "https://partners.playfootball.net/OpenActive/",
+    "https://api.findmyfacility.com/v1/openactive"
   ]
 }
