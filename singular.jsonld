@@ -13,6 +13,7 @@
   },
   "dataset": [
     "http://data.better.org.uk/",
+    "https://better-admin.org.uk/api/openactive/better",
     "https://data.bookwhen.com/",
     "http://data.letsride.co.uk/",
     "http://data.britishorienteering.org.uk/",
@@ -32,6 +33,7 @@
     "https://goteamup.com/api/openactive/v1/",
     "https://openactive.played.co/openactive/",
     "https://api.premiertennis.co.uk/openactive",
-    "https://partners.playfootball.net/OpenActive/"
+    "https://partners.playfootball.net/OpenActive/",
+    "https://api.findmyfacility.com/v1/openactive"
   ]
 }
